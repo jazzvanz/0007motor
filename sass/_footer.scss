@@ -1,20 +1,26 @@
 footer {
 	clear: both;
 	background-color:palegreen;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content: space-between;
-		.container h1 {
+		.container h1,p {
 			padding:0;
 			margin:0;
+			text-align:center;
 		}
 		// #menu-primary-navigation {
 		// 	background:blue;
 		// 	color:yellow;
 		// }
+		.footerNav {
+			display:flex;
+			flex-wrap:wrap;
+			justify-content: space-between;
+		}
+
+
 
 		#menu-footer-navigation {
 			background:yellow;
+			// height:200px;
 		}
 		#menu-footer-social-navigation {
 			background:blue;

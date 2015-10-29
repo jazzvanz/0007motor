@@ -22,7 +22,10 @@ function theme_setup() {
 	* You can allow clients to create multiple menus by
   * adding additional menus to the array. */
 	register_nav_menus( array(
-		'primary' => 'Primary Navigation'
+		'primary' => 'Primary Navigation',
+		'primarySocial' => 'Social Navigation',
+		'footer' => "Footer Navigation",
+		'footerSocial' => "Footer Social Navigation"
 	) );
 
 	/*

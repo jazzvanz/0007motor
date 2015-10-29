@@ -1,10 +1,10 @@
 /*
-* Theme Name: HackerYou Starter Theme
-* Theme URI: http://hackeryou.com;
-* Description: Starter theme for building any website. Created by HackerYou. * Rename this to your own theme page.
+* Theme Name: Motor Theme
+* Theme URI: http://jazzvangeel.com;
+* Description: Any ecomm theme for personal community based stores.
 * Version: 1.0
-* Author: HackerYou
-* Author URI: http://hackeryou.com
+* Author: Jazz Vangeel
+* Author URI: http://Jazz Vangeel
 */
 
 @import 'normalize';
@@ -24,7 +24,7 @@ img {
 }
 
 body {
-	color: #333;
+	color: #000;
 }
 
 .container {
@@ -40,6 +40,14 @@ body {
 
 .full {
 	width: 100%;
+}
+
+header {
+	background-color: cadetblue;
+		h1 {
+			margin:0;
+			padding:0;
+		}
 }
 
 

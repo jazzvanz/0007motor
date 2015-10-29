@@ -1,7 +1,20 @@
 <footer>
   <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+    <p>&copy; Jazz Vangeel <?php echo date('Y'); ?></p>
+    <h1>THIS IS THE FOOTER</h1>
   </div>
+
+  <div class="footerNav"> <?php wp_nav_menu( array(
+       'container' => false,
+       'theme_location' => 'footerSocial'
+     )); ?>
+    
+       <?php wp_nav_menu( array(
+       'container' => false,
+       'theme_location' => 'footer'
+     )); ?>
+  </div>
+  
 </footer>
 
 <script>

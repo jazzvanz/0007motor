@@ -1,3 +1,23 @@
 footer {
 	clear: both;
+	background-color:palegreen;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+		.container h1 {
+			padding:0;
+			margin:0;
+		}
+		// #menu-primary-navigation {
+		// 	background:blue;
+		// 	color:yellow;
+		// }
+
+		#menu-footer-navigation {
+			background:yellow;
+		}
+		#menu-footer-social-navigation {
+			background:blue;
+		}
+
 }

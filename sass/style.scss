@@ -20,6 +20,7 @@ Default Styling
 */
 html {
 	font-family: 'Work Sans', sans-serif;
+	font-size: 67.5%;
 }
 
 img {
@@ -46,16 +47,125 @@ body {
 }
 
 header {
-	background-color: cadetblue;
+	background-color:rgba(192,192,192,0.3);
+	display:flex;
+	align-items: center;
+	height:100px;
+	position:absolute;
+	top:0;
+	width:100%;
+	
 		h1 {
 			margin:0;
 			padding:0;
 		}
+
+		.headerNav {
+			display:flex;
+			justify-content: space-between;
+			width:100%;
+		}
+
+		#menu-primary-navigation {
+				// background:yellow;
+			padding-right: 7%;
+			background:none;
+			width:35%;
+			// justify-content: space-between;
+			// height:200px;
+				li {
+					padding:0 2%;
+					background:none;
+					font-size: 1.2rem;
+					 	a {
+					 		background:none;
+					 	}
+				}
+		}
+
+		#menu-social-navigation {
+				// justify-content: space-between;
+			// background:blue;
+			padding-left:7%;
+			background:none;
+				li {
+					padding:0 2%;
+					background:none;
+					font-size:2rem;
+						a {
+							background:none;
+						}
+				}
+		}
+}
+// footer css to apply to header. 
+footer {
+	clear: both;
+	background-color:rgba(192,192,192,0.3);
+	display:flex;
+	align-items: center;
+	// justify-content: space-around;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+
+		.container h1,p {
+			padding:0;
+			margin:0;
+			text-align:center;
+		}
+		// #menu-primary-navigation {
+		// 	background:blue;
+		// 	color:yellow;
+		// }
+		.footerNav {
+			display:flex;
+			// flex-wrap:wrap;
+			justify-content: space-between;
+			width:100%;
+		}
+
+
+
+		#menu-footer-navigation {
+			// background:yellow;
+			padding-right: 7%;
+			background:none;
+			width:35%;
+			// justify-content: space-between;
+			// height:200px;
+				li {
+					padding:0 2%;
+					background:none;
+					font-size: 1.2rem;
+					 	a {
+					 		background:none;
+					 	}
+				}
+		}
+		#menu-footer-social-navigation {
+			// justify-content: space-between;
+			// background:blue;
+			padding-left:7%;
+			background:none;
+				li {
+					padding:0 2%;
+					background:none;
+					font-size:2rem;
+						a {
+							background:none;
+						}
+				}
+
+		}
+
 }
 
-
-
-
+		#example_video_1 {
+			height:100vh;
+			width:100%;
+		}
 
 
 

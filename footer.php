@@ -1,13 +1,14 @@
 <footer>
-  <div class="container">
-    <p>&copy; Jazz Vangeel <?php echo date('Y'); ?></p>
-    <h1>THIS IS THE FOOTER</h1>
-  </div>
+ 
 
   <div class="footerNav"> <?php wp_nav_menu( array(
        'container' => false,
        'theme_location' => 'footerSocial'
      )); ?>
+
+        <div class="container">
+          <p>&copy; Jazz Vangeel <?php echo date('Y'); ?></p>
+       </div>
     
        <?php wp_nav_menu( array(
        'container' => false,

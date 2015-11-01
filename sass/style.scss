@@ -21,6 +21,7 @@ Default Styling
 html {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 67.5%;
+	// color:white;
 }
 
 img {
@@ -29,6 +30,7 @@ img {
 
 body {
 	color: #000;
+	color:white;
 }
 
 .container {
@@ -104,10 +106,7 @@ footer {
 	background-color:rgba(192,192,192,0.3);
 	display:flex;
 	align-items: center;
-	// justify-content: space-around;
 	height:100px;
-	position:absolute;
-	bottom:0;
 	width:100%;
 
 		.container h1,p {
@@ -162,10 +161,90 @@ footer {
 
 }
 
-		#example_video_1 {
-			height:100vh;
-			width:100%;
+.hero {
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	height:100vh;
+}
+
+.owners {
+	width:100%;
+	background-color:palegreen;
+	height:500px;
+	display:flex;
+	flex-wrap:wrap;
+		.ownerOne {
+			background: url(img/ownerOne.jpg) center no-repeat;
+			width:200px;
+			height:200px;
+			border-radius: 50%;
 		}
+		.ownerTwo {
+			background: url(img/ownerTwo.jpg) center no-repeat;
+			width:200px;
+			height:200px;
+			border-radius: 50%;
+		}
+		.team {
+			background:pink;
+			display:flex;
+			flex-wrap:wrap;
+			justify-content: flex-end;
+				.teamOne {
+					background: url(img/teamOne.jpg) center no-repeat;
+					width:200px;
+					height:200px;
+					border-radius: 50%;
+					padding:10%;
+					margin:20px
+				}
+				.teamTwo {
+					background: url(img/teamTwo.jpg) center no-repeat;
+					width:200px;
+					height:200px;
+					border-radius: 50%;
+					padding:10%;
+					margin:20px
+
+				}
+				.teamThree {
+					background: url(img/teamThree.jpg) center no-repeat;
+					width:200px;
+					height:200px;
+					border-radius: 50%;
+					padding:10%;
+					margin:20px
+				}
+		}
+}
+
+
+
+.title {
+	text-align: center;
+	background: url(screenshot.png) center;
+	background-size: cover;
+	height:100vh;
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+		h1 {
+			color:white;
+			width: 40%;
+			align-self: center;
+		}
+		h2 {
+			color:white;
+			width: 40%;
+			align-self:center;
+		}
+}
+	
+
 
 
 

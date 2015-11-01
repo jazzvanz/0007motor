@@ -8,8 +8,6 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
   <?php // Load our CSS ?>
-  <link href="//vjs.zencdn.net/4.12/video-js.min.css" rel="stylesheet">
-  <script src="//vjs.zencdn.net/4.12/video.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,200,500' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
@@ -32,13 +30,6 @@
        'container' => false,
        'theme_location' => 'primarySocial'
      )); ?>
-
-
-      <h1>
-        <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-          <?php bloginfo( 'name' ); ?>
-        </a>
-      </h1>
 
      
        <?php wp_nav_menu( array(

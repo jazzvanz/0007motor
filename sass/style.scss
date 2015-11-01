@@ -18,6 +18,8 @@
 Default Styling
 ====================================
 */
+
+
 html {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 67.5%;
@@ -160,7 +162,7 @@ footer {
 		}
 
 }
-
+// CSS FOR SPLASH IMAGE AND TEXT
 .hero {
 	width:100%;
 	display:flex;
@@ -168,12 +170,38 @@ footer {
 	height:100vh;
 }
 
-.owners {
+//CSS FOR OWNER PANEL
+
+.panelOne {
 	width:100%;
-	background-color:palegreen;
+	background-color:rgba(192,192,192,0.3);
 	height:500px;
 	display:flex;
 	flex-wrap:wrap;
+		.owners {
+			width:100%;
+			display:flex;
+			flex-wrap:wrap;
+		}
+		.owner {
+			display:flex;
+			flex-wrap:wrap;
+			margin:30px;
+		}
+		.ownerText {
+			display:flex;
+			flex-wrap:wrap;
+			width:35%;
+		}
+		h3.owner {
+			font-size: 5rem;
+			margin:0;
+		}
+		p.owner {
+			font-size: 1.5rem;
+			// width:30%;
+			margin:0;
+		}
 		.ownerOne {
 			background: url(img/ownerOne.jpg) center no-repeat;
 			width:200px;
@@ -186,7 +214,25 @@ footer {
 			height:200px;
 			border-radius: 50%;
 		}
+
+		//TEAM SECTION AFTER OWNER
+
 		.team {
+			width:100%;
+			display:flex;
+			flex-wrap:wrap;
+				.teamText {
+					width:40%;
+					background-color:palegreen;
+					h3.team{
+						font-size: 2rem;
+					}
+					p.team{
+						font-size:1rem;
+					}
+				}
+		}
+		.teamPhoto {
 			background:pink;
 			display:flex;
 			flex-wrap:wrap;
@@ -219,7 +265,7 @@ footer {
 		}
 }
 
-
+// TITLE FOR SPLASH IMAGE/VIDE0
 
 .title {
 	text-align: center;
@@ -233,6 +279,7 @@ footer {
 	justify-content: center;
 	
 		h1 {
+			font-size: 7rem;
 			color:white;
 			width: 40%;
 			align-self: center;
@@ -244,6 +291,31 @@ footer {
 		}
 }
 	
+	//FIRST BANNER BANNER 
+
+	.bannerOne {
+		width:100%;
+		height:600px;
+			.bannerImageOne {
+				
+				height:600px;
+				background:
+				url(img/bannerOne.jpg) center no-repeat;
+				background: cover;
+				display:flex;
+				flex-wrap: wrap;
+				justify-content: flex-end;
+				align-items: center;
+				// width:100%;
+					h4 {
+						width:40%;
+						font-size: 3rem;
+						padding:0;
+						margin:0;
+						// line-height: 1rem;
+				}	
+			}
+	}
 
 
 

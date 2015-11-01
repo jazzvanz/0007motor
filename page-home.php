@@ -18,8 +18,8 @@
 			</div>
 		</div>
 		<div class="ownerText">
-			<h3 class="owner" >Meet The Owners!</h3>
-			<p class="owner" >Tendrils of gossamer clouds Cambrian explosion. Inconspicuous motes of rock and gas, vanquish the impossible birth emerged into consciousness, hydrogen atoms billions upon billions from which we spring rich in heavy atoms the sky calls to us.</p>
+			<h3 class="owner" >Meet the shop Owners!</h3>
+			<!-- <p class="owner" >Tendrils of gossamer clouds Cambrian explosion. Inconspicuous motes of rock and gas, vanquish the impossible birth emerged into consciousness, hydrogen atoms billions upon billions.</p> -->
 		</div>
 	</div>
 	<div class="team">
